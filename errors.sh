@@ -7,7 +7,7 @@
 source /etc/functions.sh
 cd $HOME/yiimpool/daemon_builder
 
-RESULT=$(dialog --stdout --title "Afiniel Yiimpool Daemon Installer v1.0.3 v1.0.3 v1.0.3 v1.0.3" --menu "Choose one" -1 60 10 \
+RESULT=$(dialog --stdout --title "Afiniel Yiimpool Daemon Installer v1.0.3.1" --menu "Choose one" -1 60 10 \
 1 "Make clean - does not build only cleans build dir" \
 2 "Fix invalid application of sizeof error" \
 3 "Fix openSSL 1.1x incompatibilities" \
